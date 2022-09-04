@@ -38,5 +38,15 @@
             多个子节点以数组的格式进行存储
         props类型校验：采用 ProtoTypes 设置 props 的类型，类型不匹配的话会报错
         props默认值设置：分为函数组件默认值设置和类组件默认值设置
-        
+    类组件的生命周期：
+        类组件的生命周期分为三个阶段：
+            挂载阶段：constructor、render、componentDidMount
+            更新阶段: render、componentDidUpdate
+            卸载阶段: componentWillUnmount
+    Ant-design 组件库的使用，安装包，引入，当做组件使用，遇到问题就在官网上看对应组件的属性和API
+    hooks：
+        useState
+        useEffect
+        useRef
+        useContext
     
